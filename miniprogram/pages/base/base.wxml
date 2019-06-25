@@ -1,0 +1,62 @@
+<swiper autoplay indicator-dots indicator-color="blue" indicator-active-color="red" circular interval="1000">
+  <swiper-item>
+    <image mode='widthFix' src="../../images/1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode='widthFix' src="../../images/2.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode='widthFix' src="../../images/3.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode='widthFix' src="../../images/4.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode='widthFix' src="../../images/5.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode='widthFix' src="../../images/6.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode='widthFix' src="../../images/7.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode='widthFix' src="../../images/8.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode='widthFix' src="../../images/9.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode='widthFix' src="../../images/10.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode='widthFix' src="../../images/11.jpg"></image>
+  </swiper-item>
+</swiper>
+<view style='color:{{mycolor}}'> {
+  {
+  msg
+  }
+  }
+
+</view>
+<view style='color:{{mycolor}}' wx:for="{{list}}" wx:key="{{index}}"> {
+  {
+  item.name
+  }
+  }
+
+  {
+  {
+  item.age
+  }
+  }
+
+</view><button size='mini' bindtap='onTapHandler'>点我+1</button>
+<view> {
+  {
+  count
+  }
+  }
+
+</view>
