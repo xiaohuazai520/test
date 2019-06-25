@@ -1,0 +1,6 @@
+.section{
+    padding: 15rpx;
+  }
+  .section video{
+    width: 100%;
+  }

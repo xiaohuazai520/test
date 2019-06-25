@@ -1,0 +1,15 @@
+<navigator url="../base/base" open-type="switchTab" style='text-align:center;color:red'>点击去首页找她</navigator>
+<view class="section">
+    <video src="{{src}}" controls></video>
+    <view class="btn-area">
+        <button bindtap="bindButtonTap">获取视频</button>
+    </view>
+</view>
+<view class="section">
+    <video id="myVideo" src="{{src}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+    <view class="btn-area">
+        <button bindtap="bindButtonTap">获取视频</button>
+        <input bindblur="bindInputBlur" />
+        <button bindtap="bindSendDanmu">发送弹幕</button>
+    </view>
+</view>
