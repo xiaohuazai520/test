@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/index3/index3",
+    "pages/index1/index1",
+    "pages/index2/index2",
     "pages/base/base",
     "pages/cloud/cloud"
   ],
